@@ -1,3 +1,6 @@
+    Codepen LINK:
+     https://codepen.io/Dislaenvy/pen/eYBdBBb?editors=1100
+    
     1. What is Semantic HTML? 
     HTML that gives meaning or context tp our code. We use it for accesibility purpose
 
@@ -41,28 +44,69 @@
         if the image cannot be displayed. The alt attribute provides alternative information for an image if a user for some reason cannot view it 
 
     15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
+     # fallow by an ID name.
+
+    16. What is the difference between a section and a div?
+        section is a Semantic HTML and div not
+
+    17. What is CSS used for?  
+        style the webside or page.
+
     18. How to we select an element? Example - every h2 on the page
+         h2{ }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        with class you can create multiple of them and with ID NOT. Class is better use to stylethe page because you can tagert multiple object with the same class.
+
     20. How do we select classes in CSS?
+        . plus class mane
+
     21. How do we select a p element with a single class of “human””?
+        .huma p {}
+
     22. What is a parent child selector? When would this be useful? 
+        This is used to match elements that are direct children of other elements, which is a little more precise than the traditional contextual selector.
+
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a:link .sidebar a:visited
+
     24. What is a pseudo selector?
+         Is a keyword added to a selector that lets you style a specific part of the selected element.
+
     25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
+        letter-spacing:
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase;
+
     28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
+
     29. How do I select everything on the page? 
+        *{}
+
     30. How do I write a comment in CSS?
+         /* comment */
+
     31. How do I find out what file I am in, when I am using the command line? 
+      git pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    git ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        git rm we have to be careful because the file will also be deleted from the filesystem
+
     34. Why should I use version control? 
+        it's easy to undo changes back and forth with a precise explanation of the changes that are made. It has the ability of: Keeping a track of the changes i.e. different versions of the same file. It also keeps a record of all the files present in a project.
+
     35. How often should I commit to github?
+        every 20 minutes you make changes
+
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch name
+
     37. Walk me through Lambda's git flow. 
+        fork, copy link, git clone, cd folder name, git checkout -b branch name, code ., git add ., git commit -m "comment", git push -u origin branch name. 
 
 Stretch Questions
 
